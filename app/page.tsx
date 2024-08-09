@@ -1,3 +1,5 @@
+
+import { Metadata } from 'next';
 import Header from '@/app/ui/astar/header'
 import HeroSection from '@/app/ui/astar/hero-section'
 import styles from '@/app/ui/home.module.css';
@@ -7,7 +9,6 @@ import Founders from './ui/astar/founders';
 import Compliance from './ui/astar/compliance';
 import Integration from './ui/astar/integration';
 import Testimonial from './ui/astar/testimonial';
-import { Metadata } from 'next';
 import Empowering from './ui/astar/Empowering';
  
 export const metadata: Metadata = {
@@ -30,7 +31,7 @@ export default function Page() {
         <Testimonial />
         <Empowering />
         <div className={styles.spacer1}></div>
-        
+
       </div>
     </main>
   );
