@@ -5,3 +5,254 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
+
+
+  .background {
+    background: rgb(33,42,60);
+    background: radial-gradient(circle, rgb(2 2 5) 0%, rgba(2, 2, 5, 1) 100%);
+    height: 100vh;
+  }
+
+  .backgroundWrapper {
+    padding: 10px;
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  .introText {
+    width: 500px;
+    margin: 0px auto;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .button {
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .buttonPry {
+    margin-right: 30px;
+  }
+
+  .trustedBy{
+    margin: 0px auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .trustedBy > img {
+    display: inline-block;
+  }
+
+  .spacer1 {
+    height: 50px
+  }
+  .spacer2 {
+    height: 100px
+  }
+
+  .line {
+    position:absolute;
+    top: 53px;
+    margin-left: -45px;
+    width: 100px;
+  }
+
+  .frame, .line, .frame > img {
+    display: inline-block;
+  }
+
+  .frame {
+    width: 200px
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    color: white;
+    position: relative;
+    margin-top: -70px;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .featureCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .featureTitle {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .featureDescription {
+    font-size: 10px;
+  }
+  
+
+/* Founders */
+.founders {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.foundersTitle {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.foundersList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.founder {
+  max-width: 200px;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.founder:nth-child(1) {
+  border-image-source: linear-gradient(to left, rgb(33,42,60), #ffffff, #FB7251);
+}
+
+.founder:nth-child(3) {
+  border-image-source: linear-gradient(to left, rgb(33,42,60), #ffffff, #AD3FE8);
+}
+
+.founder > p {
+  font-size: 10px;
+}
+
+.founder img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+/*End founders */
+
+
+/* Compliance */
+.compliance {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-image: url("/astar/rectangle-7-bg.png");
+  background-size: cover;
+  color: white;
+}
+
+.section2 {
+  background-image: url("/astar/rectangle-5-bg.png");
+  background-size: cover;
+}
+
+.complianceContent {
+  max-width: 50%;
+  padding-right: 20px;
+}
+
+.complianceTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.complianceDescription {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.complianceImage img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Integrations */
+.integration {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #000;
+  color: white;
+}
+
+.integration-image {
+  padding-right: 20px;
+}
+
+.integrationImage img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.integrationContent {
+  max-width: 50%;
+}
+
+.integrationTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.integrationDescription {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.testimonialContainer {
+  display: flex;
+  justify-content: left;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .testimonialContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.LeadText {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.h1Lead {
+  font-size: 1.5rem;
+}
+
+.empowering {
+  background-color: #05050d;
+  padding: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.empoweringText {
+  background: radial-gradient(#AA72EF, #FD8C72);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 80%;
+  line-height: 33px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+}
