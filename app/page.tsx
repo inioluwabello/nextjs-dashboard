@@ -10,6 +10,8 @@ import Compliance from './ui/astar/compliance';
 import Integration from './ui/astar/integration';
 import Testimonial from './ui/astar/testimonial';
 import Empower from './ui/astar/empower';
+import Footer from './ui/astar/footer';
+import Final from './ui/astar/final';
  
 export const metadata: Metadata = {
   title: 'Astar | Landing Page',
@@ -31,7 +33,9 @@ export default function Page() {
         <Testimonial />
         <Empower />
         <div className={styles.spacer1}></div>
-
+        <Footer />
+        <div className={styles.spacer1}></div>
+        <Final />
       </div>
     </main>
   );
