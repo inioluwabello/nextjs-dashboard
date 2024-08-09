@@ -9,7 +9,7 @@ import Founders from './ui/astar/founders';
 import Compliance from './ui/astar/compliance';
 import Integration from './ui/astar/integration';
 import Testimonial from './ui/astar/testimonial';
-import Empowering from './ui/astar/Empowering';
+import Empower from './ui/astar/empower';
  
 export const metadata: Metadata = {
   title: 'Astar | Landing Page',
@@ -29,7 +29,7 @@ export default function Page() {
         <Compliance />
         <Integration />
         <Testimonial />
-        <Empowering />
+        <Empower />
         <div className={styles.spacer1}></div>
 
       </div>
